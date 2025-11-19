@@ -50,6 +50,6 @@ joke_dict = {0: ["Why was Cinderella so bad a football?", "She kept running away
 def hello():
     return render_template('hello.html', title='Hello')
    
-    @app.route('/bye')
+@app.route('/bye')
 def bye():
     return render_template('bye.html', title='Goodbye')
